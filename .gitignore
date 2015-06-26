@@ -1,0 +1,10 @@
+.tags
+.tags_sorted_by_file
+composer.lock
+components/**
+report/**
+/vendor
+.idea/
+tests/_output
+tests/_output/*
+
