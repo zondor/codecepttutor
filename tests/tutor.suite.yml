@@ -1,0 +1,9 @@
+class_name: TutorTester
+modules:
+    enabled:
+        - PhpBrowser
+        - Asserts
+    config:
+        PhpBrowser:
+          url: https://github.com/
+          timeout: 80

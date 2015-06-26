@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="tutor_api" tests="1" assertions="3" failures="1" errors="0" time="3.110822">
+    <testcase file="/home/vagrant/Code/Tests/codecepttutor/tests/tutor_api/TesGithubApiCest.php" name="tryToSearchInGithubApi" class="TesGithubApiCest" feature="Search using github api" assertions="3" time="3.110822">
+      <failure type="PHPUnit_Framework_ExpectationFailedException">search using github api (TesGithubApiCest::tryToSearchInGithubApi)
+Failed asserting that 10 matches expected 20.
+
+/home/vagrant/Code/Tests/codecepttutor/tests/tutor_api/Tutor_apiTester.php:1985
+/home/vagrant/Code/Tests/codecepttutor/tests/tutor_api/TesGithubApiCest.php:23
+</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="tutor" tests="2" assertions="2" failures="0" errors="0" time="2.193782">
+    <testcase file="/home/vagrant/Code/Tests/codecepttutor/tests/tutor/TestGithubCest.php" name="tryToTest" class="TestGithubCest" feature="try to test" assertions="0" time="0.000672"/>
+    <testcase file="/home/vagrant/Code/Tests/codecepttutor/tests/tutor/TestGithubCest.php" name="tryToTestGithubHomePage" class="TestGithubCest" feature="search on github as Guest user" assertions="2" time="2.193110"/>
+  </testsuite>
+</testsuites>

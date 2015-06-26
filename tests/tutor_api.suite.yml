@@ -1,0 +1,10 @@
+class_name: Tutor_apiTester
+modules:
+    enabled:
+        - PhpBrowser
+        - Asserts
+        - REST
+    config:
+        PhpBrowser:
+          url: https://api.github.com
+          timeout: 80
